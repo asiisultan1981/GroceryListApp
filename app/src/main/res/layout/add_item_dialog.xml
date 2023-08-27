@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="0dp"
+    android:elevation="0dp"
+    android:layout_margin="10dp"
+    android:layout_gravity="center_horizontal"
+    app:cardBackgroundColor="@color/white"
+
+
+    >
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Add the Grocery "
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/teal_200"
+                android:background="@drawable/shape_background"
+                android:padding="8dp"
+                android:elevation="15dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="5dp"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/teal_200"
+                    android:text="Name: "
+
+                    android:textStyle="bold"
+                    android:textSize="18sp"/>
+                <EditText
+                    android:id="@+id/etName"
+                    android:hint="Item name"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/teal_200"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_weight="3"
+                    android:background="@drawable/shape_background"
+                    android:padding="8dp"
+                    android:layout_margin="5dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:visibility="gone"
+                >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/teal_200"
+                    android:text="Type: "
+
+                    android:textStyle="bold"
+                    android:textSize="18sp"/>
+                <EditText
+                    android:id="@+id/etItemType"
+                    android:hint="Item Type"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/teal_200"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_weight="3"
+                    android:background="@drawable/shape_background"
+                    android:padding="8dp"
+                    android:layout_margin="5dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="5dp"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/teal_200"
+                    android:text="Rate: "
+
+                    android:textStyle="bold"
+                    android:textSize="18sp"/>
+                <EditText
+                    android:id="@+id/etRate"
+                    android:hint="Rate"
+                    android:inputType="phone"
+                    android:textColor="@color/teal_200"
+                    android:background="@drawable/shape_background"
+                    android:padding="8dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:layout_height="wrap_content"/>
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="5dp"
+                android:gravity="center">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/teal_200"
+                    android:text="Qty:"
+
+                    android:textStyle="bold"
+                    android:textSize="18sp"/>
+
+
+                <EditText
+                    android:id="@+id/etQuantity"
+                    android:hint="Quantity "
+                    android:inputType="phone"
+                    android:textColor="@color/teal_200"
+                    android:background="@drawable/shape_background"
+                    android:padding="8dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp"
+                    android:layout_weight="3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/BtnCancel"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+
+
+                android:text="cancel"
+                    android:backgroundTint="#030B7C"
+                    android:background="@drawable/shape_background"
+                    android:layout_margin="5dp"
+                    />
+                <Button
+                    android:id="@+id/BtnSaveItem"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:text="save"
+                    android:backgroundTint="#030B7C"
+                    android:background="@drawable/shape_background"
+                    android:layout_margin="5dp"
+                    />
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

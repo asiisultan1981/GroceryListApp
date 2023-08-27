@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <item android:title="DRY/BAKING">
+
+        <menu>
+            <item
+                android:id="@+id/nav_pulses"
+                android:title="PULSES"/>
+            <item
+                android:id="@+id/nav_baking"
+                android:title="BAKING"/>
+            <item
+                android:id="@+id/nav_grains"
+                android:title="GRAINS"/>
+        </menu>
+    </item>
+
+
+    <item
+        android:id="@+id/nav_produce"
+        android:title="Produce" />
+
+
+
+    <item
+        android:id="@+id/nav_bakery"
+        android:title="BAKERY" />
+
+    <item
+        android:id="@+id/nav_saucesOils"
+        android:title="SAUCES/OILS" />
+
+    <item
+        android:id="@+id/nav_snacks"
+        android:title="SNACKS" />
+    <item
+        android:id="@+id/nav_condiments"
+        android:title="CONDIMENTS" />
+    <item
+        android:id="@+id/nav_spices"
+        android:title="SPICES" />
+    <item
+        android:id="@+id/nav_baby"
+        android:title="BABY" />
+    <item
+        android:id="@+id/nav_personal"
+        android:title="PERSONAL CARE" />
+    <item
+        android:id="@+id/nav_household"
+        android:title="HOUSEHOLD" />
+
+
+</menu>
